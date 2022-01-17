@@ -1,0 +1,27 @@
+#container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center; 
+  margin: 0 50px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #3b5998;
+  border-radius: 8px;
+  box-shadow: 10px 5px 12px gainsboro;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #3b5998;
+  box-shadow: 10px 10px 12px gainsboro;
+  color: white;
+}

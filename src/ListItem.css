@@ -1,0 +1,37 @@
+li {
+  background:white;
+  border: 5px solid #3b5998;
+  border-radius: 4px;
+  box-shadow: 10px 5px 12px gainsboro;
+  flex: 1;
+  height: 300px;
+  margin: 20px;
+  max-width: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+
+li:hover {
+  box-shadow: 10px 10px 12px gainsboro;
+  background: #3b5998;
+  border: 5px solid white;
+
+}
+
+li:hover,
+li:hover a {
+color: white;
+}
+
+a {
+  display: block;
+}
+
+p,
+li a {
+  margin-top: 50px;
+}
+
+p {
+  font-weight: 700;
+}

@@ -1,0 +1,25 @@
+table {
+  border: 1px solid #5e9ab6;
+  border-collapse: collapse;
+  box-shadow: 10px 10px 12px gainsboro;
+  margin: 20px auto;
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead {
+  background: #3b5998;
+  color: white;
+}
+
+thead th:nth-child(1) {
+  width: 50%;
+}
+
+thead th:nth-child(2) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
